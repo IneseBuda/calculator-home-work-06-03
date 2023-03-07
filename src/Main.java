@@ -5,30 +5,30 @@ public class Main {
         System.out.println("meal costs calculator");
         System.out.println("Calculation summ of two meals");
         System.out.println("Provide lunch costs in eur: ");
-        double lunchCosts;
-        double dinnerCosts;
+        int lunchCosts;
+        int dinnerCosts;
         int numberofPersons;
         int costsonePerson;
-        double calculationPeriod;
+        int calculationPeriod;
 
         Scanner inputReader = new Scanner(System.in);
-        lunchCosts = inputReader.nextDouble();
+        lunchCosts = inputReader.nextInt();
         System.out.println("You provided costs in eur:" + lunchCosts);
         System.out.println("Provide dinner costs in eur: ");
-        dinnerCosts = inputReader.nextDouble();
+        dinnerCosts = inputReader.nextInt();
         System.out.println("You provided cocts in eur:" + dinnerCosts);
-        double sum = lunchCosts + dinnerCosts;
+        int sum = lunchCosts + dinnerCosts;
         System.out.println("Sum of meal costs in eur is: " + sum);
         System.out.println("Provide number of persons in meal:");
         numberofPersons = inputReader.nextInt();
         System.out.println("You provided number of persons in meals:" + numberofPersons);
-        double division = ((lunchCosts + dinnerCosts) / numberofPersons);
+        int division = ((lunchCosts + dinnerCosts) / numberofPersons);
         System.out.println("Costs for one person in eur is:" + division);
         System.out.println("Provide calculation period in days (max 9 numbers):");
-        calculationPeriod = inputReader.nextDouble();
+        calculationPeriod = inputReader.nextInt();
         System.out.println("You provided calculation period in days : " + calculationPeriod);
-        double multiplication = division * calculationPeriod;
-        System.out.println("Costs for calculation period in eur :" + multiplication);
+        int multiplication = division * calculationPeriod;
+        System.out.println("Costs for calculation period in eur for one person :" + multiplication);
 
 
 
