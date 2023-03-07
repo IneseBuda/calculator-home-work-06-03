@@ -22,7 +22,7 @@ public class Main {
         numberofPersons = inputReader.nextInt();
         System.out.println("You provided number of persons in meals:" + numberofPersons);
         int division = ((lunchCosts + dinnerCosts) / numberofPersons);
-        System.out.println("Costs for one person is:" + division);
+        System.out.println("Costs for one person in eur is:" + division);
 
 
 
