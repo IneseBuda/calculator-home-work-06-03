@@ -28,7 +28,7 @@ public class Main {
         calculationPeriod = inputReader.nextInt();
         System.out.println("You provided calculation period in days: " + calculationPeriod);
         int multiplication = division * calculationPeriod;
-        System.out.println("Costs for calculation period in eur:" + multiplication);
+        System.out.println("Costs for calculation period in eur (max 9 numbers):" + multiplication);
 
 
 
